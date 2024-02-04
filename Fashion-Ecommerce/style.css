@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 /* font-family: 'Rubik', sans-serif; */
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/* font-family: 'Aclonica', sans-serif; */
 
 body{
     font-family: 'Rubik', sans-serif;
@@ -58,4 +59,11 @@ nav>.nav-logo{
 
 
 /* ///////////////////////////////////////////////////////// nav-done//////////////////////// */
+
+.banner{
+    margin-left: 5%;
+}
+
+/* ////////////////////////////////////////// banner done////////////////////// */
+
 
