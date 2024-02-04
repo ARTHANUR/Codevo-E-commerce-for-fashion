@@ -171,5 +171,47 @@ nav>.nav-logo {
 }
 
 .collection>img{
-    margin: 100px 0 50px;
+    margin: 50px 0 50px;
 }
+
+/* ////////////////////////////////////////////collection done/////////////////////*/
+
+.grid{
+    width: 80%;
+    height: 570px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c b";
+    grid-gap: 30px 40px;
+    margin-top: 5rem;
+    
+}
+
+
+
+.a{
+    /* background-color: red; */
+    grid-area: a;
+}
+.b{
+    /* background-color: green; */
+    grid-area: b;
+
+}
+.c{
+    /* background-color: blue; */
+    grid-area: c;
+
+}
+.arrival{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+/* ////////////////////////////////////////Arrival done////////////////// */
