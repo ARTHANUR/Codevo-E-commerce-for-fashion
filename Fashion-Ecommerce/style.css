@@ -253,3 +253,101 @@ linear-gradient(0deg, #F0F0F0, #F0F0F0);
 
 
 /* //////////////////////////////////// collection done /////////////////// */
+
+
+
+footer {
+    background-color: 
+    #fccb905b
+    ;
+    padding: 20px 0;
+    padding: 40px;
+    margin-top: 100px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+ 
+  .icon_container{
+    display: flex;
+      align-items: center;
+  }
+  .icon_container>h3{
+    color: #FF5E3A;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .image_icon{
+    width: 24px; 
+      height: 24px; 
+      margin-right: 10px; 
+  }
+  
+  .footer-section {
+    flex: 1;
+    max-width: 250px;
+    margin-bottom: 30px;
+  }
+
+
+  
+  .icons_footer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .icons_footer>i{
+    color: #FF5E3A;
+    font-size: 20px;
+  }
+  .footer-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin: 30px 0px 30px;
+  }
+  
+  .footer-section li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section >li >a:hover {
+    color: #007bff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .footer-bottom >p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .foot{
+    color:#FF5E3A;
+  }
+  .footer-section>ul>li>i{
+    color: #FF5E3A;
+    margin-right: 10px;
+
+  }
+  .footer-section>ul>li>a>i{
+    color: #FF5E3A;
+    margin-right: 10px;
+  }
